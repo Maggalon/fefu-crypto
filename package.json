@@ -1,0 +1,47 @@
+{
+  "name": "fefu_crypto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@metamask/browser-passworder": "^5.0.1",
+    "@yudiel/react-qr-scanner": "^2.0.8",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "ethereum-cryptography": "^3.0.0",
+    "ethers": "^6.13.4",
+    "moment": "^2.30.1",
+    "pinata-web3": "^0.5.2",
+    "qr-code-styling": "^1.8.4",
+    "qr-scanner": "^1.4.2",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-qr-code": "^2.0.15",
+    "react-spinners": "^0.14.1",
+    "react-tooltip": "^5.28.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.1"
+  }
+}
